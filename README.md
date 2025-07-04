@@ -12,3 +12,6 @@ npm run dev
 
 # Сборка production
 npm run build
+
+# Запуск тестов
+npm run test

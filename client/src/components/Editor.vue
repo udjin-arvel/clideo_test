@@ -197,6 +197,8 @@ const handleMouseDown = (event: MouseEvent) => {
     ) / 2 + ROTATE_BUTTON_INDENT
   };
 
+  console.log(rotateHandle)
+
   if (Math.sqrt(
     Math.pow(mousePos.x - rotateHandle.x, 2) + Math.pow(mousePos.y - rotateHandle.y, 2)
   ) <= 15) { // "хитбокс" кнопки вращения = 15
